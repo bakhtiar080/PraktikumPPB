@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Praktikum PPB</string>
+    <string name="nama">Ahmad Bakhtiar</string>
+    <string name="nim">140411100080</string>
+    <string name="listModulPraktikum">List Modul Praktikum</string>
+    <string name="modul1">Modul 1 : Pengenalan lingkungan Android dan Struktur Dasar </string>
+    <string name="modul2">Modul 2 : </string>
+    <string name="modul3">Modul 3 : </string>
+    <string name="modul4">Modul 4 : </string>
+    <string name="modul5">Modul 5 : </string>
+    <string name="modul6">Modul 6 : </string>
+    <string name="modul7">Modul 7 : </string>
+    <string name="modul8">Modul 8 : </string>
+    <string name="hello">Hello....!!!</string>
+    <string name="title_activity_second">secondActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
