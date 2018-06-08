@@ -26,6 +26,8 @@
         <activity android:name=".modul3.modul3" />
         <activity android:name=".modul3.secondActivity" />
         <activity android:name=".modul4.listView" />
+        <activity android:name=".modul5.DrawingActivity" />
+        <activity android:name=".modul5.Modul5"></activity>
     </application>
 
 </manifest>

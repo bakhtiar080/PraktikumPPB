@@ -10,6 +10,7 @@ import bakhtiar.ppb.praktikumppb.modul1.modul1;
 import bakhtiar.ppb.praktikumppb.modul2.modul2;
 import bakhtiar.ppb.praktikumppb.modul3.modul3;
 import bakhtiar.ppb.praktikumppb.modul4.listView;
+import bakhtiar.ppb.praktikumppb.modul5.Modul5;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         buttonModul2 = (Button) findViewById(R.id.btnmodul2);
         buttonModul3 = (Button) findViewById(R.id.btnmodul3);
         buttonModul4 = (Button) findViewById(R.id.btnmodul4);
+        buttonModul5 = (Button) findViewById(R.id.btnmodul5);
 
 
         //Method utk klik tombol modul 1
@@ -62,6 +64,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //perintah setelah kejadian klik
                 Intent intent = new Intent(MainActivity.this, listView.class);
+                startActivity(intent);
+            }
+        });
+
+       //Method untuk klik tombol modul 5
+        buttonModul5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //perintah setelah kejadian klik
+                Intent intent = new Intent(MainActivity.this, Modul5.class);
                 startActivity(intent);
             }
         });
